@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>LB4 Markenrecht von Berther Roman, Fischer Raven, Schoenenberger Jeremy und Wurr Kimberly </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-green w3-card w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="toggleNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Übersicht</a>
+      <a href="fallbeispiel.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Fallbeispiel</a>
+      <a href="abgrenzungskriterien.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Abgrenzungskriterien</a>
+      <a href="rechtswidrigkeiten.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Rechtswidrigkeiten</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navmobile" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Übersicht</a>
+      <a href="fallbeispiel.html" class="w3-bar-item w3-button w3-padding-large">Fallbeispiel</a>
+      <a href="abgrenzungskriterien.html" class="w3-bar-item w3-button w3-padding-large">Abgrenzungskriterien</a>
+      <a href="rechtswidrigkeiten.html" class="w3-bar-item w3-button w3-padding-large">Rechtswidrigkeiten</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="w3-container bg w3-center" style="padding: 128px 16px">
+    <h1 class="w3-margin w3-jumbo">Markenrecht</h1>
+    <p class="w3-xlarge">So schützen Sie Ihre Marke: Ihre Identität, Ihr Erfolg.</p>
+    <a href="#start" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Und weitere Informationen</a>
+  </header>
+
+  <!-- First Grid -->
+  <div class="w3-row-padding w3-padding-64 w3-container" id="start">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1>Markenrecht</h1>
+        <h5 class="w3-padding-32">Eine Marke im rechtlichen Sinn ist ein geschütztes Kennzeichen, mit dem ein Unternehmen seine Waren oder Dienstleistungen von solchen anderer Unternehmen unterscheidet.
+          Grundsätzlich können alle grafisch darstellbaren Zeichen Marken sein: 
+          z.B. Wörter, Buchstabenkombinationen, Zahlenkombinationen, bildliche Darstellungen, 
+          dreidimensionale Formen, Slogans, Kombinationen dieser Elemente, oder auch aus Tonfolgen bestehende akustische Marken.</h5>
+
+          <p class="w3-text-grey">Jedoch gibt es verschiedene Sachen, die man beachten muss, bevor man eine Marke schützen kann. Informationen zu diesen Vorgaben und vieles mehr findest du auf dieser Webseite.
+          </p>
+      </div>
+
+      <div class="w3-twothird">
+        <h2>Kleines Beispiel</h2>
+        <h5>Sich möchten die Buchstabenkombination ZRCL (steht für Circle) 
+          als Marke für Telekommunikationsdienstleistungen eintragen lassen, geht das?</h5>
+
+        <p class="w3-text-grey">Nein, die Buchstabenkombination ZRCL kann nicht als Marke für Telekommunikationsdienstleistungen eingetragen werden,
+           da sie bereits als Markenname für ein Schweizer Streetwear-Label verwendet wird. [1][2][3][4]</p>
+
+        <p class="w3-text-grey">Da ZRCL bereits als eingetragene Marke für Bekleidungsartikel existiert, 
+          wäre eine Eintragung desselben Markennamens für Telekommunikationsdienstleistungen 
+          aufgrund der Verwechslungsgefahr und des bestehenden Markenschutzes sehr unwahrscheinlich. 
+          Die Markenrechte für ZRCL im Bekleidungsbereich würden einer Neuanmeldung in einer anderen Branche entgegenstehen. [1][2][3][4]
+        </p>
+      </div>
+      
+      <div class="w3-container">
+        <h2>FAQ</h2>
+        
+        <button onclick="toggleAccordion('Demo1')" class="w3-button w3-block w3-light-grey w3-left-align">Wo kann eine Marke online eingetragen werden?</button>
+        <div id="Demo1" class="w3-hide w3-container w3-text-grey">
+          <p>Das Markenrecht entsteht mit der Eintragung im Register. Das kann man auf der Webseite https://e-trademark.ige.ch machen. </p>
+          <p> (Das Markenrecht steht demjenigen zu, der die Marke zuerst hinterlegt.)</p>
+        </div>
+        
+        <button onclick="toggleAccordion('Demo2')" class="w3-button w3-block w3-light-grey w3-left-align">Welche Marken sind ausgeschlossen?</button>
+        <div id="Demo2" class="w3-hide w3-container w3-text-grey">
+          <p>Das Markenschutzgesetz schliesst bestimmte Zeichen aus:
+            <ol>
+              <li>Gemeingut-Zeichen können geschützt werden, wenn sie sich als Marke etabliert haben.</li>
+              <li>Formen, die das Wesen der Ware ausmachen oder technisch benötigt werden, sind nicht schutzfähig.</li>
+              <li>Irreführende Zeichen und solche, die gegen Gesetz oder gute Sitten verstossen, sind ebenfalls ausgeschlossen.</li>
+            </ol>
+            Zusätzlich sind Zeichen vom Schutz ausgeschlossen, wenn sie identisch oder 
+            ähnlich mit älteren Marken sind und Verwechslungsgefahr besteht.
+          </p>
+        </div>
+        
+        <button onclick="toggleAccordion('Demo3')" class="w3-button w3-block w3-light-grey w3-left-align">Wie lange ist eine Marke geschützt?</button>
+        <div id="Demo3" class="w3-hide w3-container w3-text-grey">
+          <p>Eine Marke ist vom Anmeldedatum an für jeweils zehn Jahre geschützt. 
+            Der Schutz kann beliebig oft um weitere zehn Jahre verlängert werden. Die Anmeldegebühr beträgt CHF 450.</p>
+        </div>
+        
+        <button onclick="toggleAccordion('Demo4')" class="w3-button w3-block w3-light-grey w3-left-align">Welche Arten von Marken 
+          können geschützt werden?</button>
+        <div id="Demo4" class="w3-hide w3-container w3-text-grey">
+          <p>In der Schweiz können verschiedene Arten von Marken geschützt werden, 
+            darunter Wortmarken, Bildmarken, Wort-Bild-Marken, Klangmarken, Farbmarken und dreidimensionale Marken. 
+            Der Schutz des Firmennamens variiert je nach Unternehmensform. Bei einer Einzelfirma ist der Name automatisch geschützt, 
+            während der Name einer AG oder Genossenschaft im Handelsregister registriert wird. 
+            Für zusätzlichen Markenschutz muss eine separate Anmeldung beim Eidgenössischen Institut für Geistiges Eigentum erfolgen.</p>
+        </div>
+        
+        <button onclick="toggleAccordion('Demo5')" class="w3-button w3-block w3-light-grey w3-left-align">Wie finden Sie heraus, 
+          ob bereits eine Marke mit demselben Namen geschützt wurde?</button>
+        <div id="Demo5" class="w3-hide w3-container w3-text-grey">
+          <p>Um herauszufinden, ob eine Marke mit demselben Namen bereits geschützt ist, 
+            können Sie eine Markenrecherche auf der Webseite des Eidgenössischen Institut für Geistiges Eigentum (IGE) durchführen. 
+            Dort finden Sie eine Datenbank mit eingetragenen Marken in der Schweiz. Überprüfen Sie ähnliche oder identische Namen, 
+            um sicherzustellen, dass keine Verwechslungsgefahr besteht. Bei Unsicherheiten ist es ratsam, 
+            einen Rechtsanwalt oder einen Spezialisten für Markenrecht zu konsultieren.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Grid -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+
+      
+      <p>Quellen FAQ / Zusammenfassung</p>
+      <ul>
+        <li>https://www.ige.ch/de/etwas-schuetzen/marken/faq</li>
+      </ul>
+
+        <p>Quelle Beispiel</p>
+      <ul>
+        <li>[1] https://www.fairdinand.ch/brand/zrcl/</li>
+        <li>[2] https://wearezrcl.com</li>
+        <li>[3] https://wearezrcl.com/de/ueber-uns</li>
+        <li>[4] https://rrrevolve.ch/marken/216-zrcl</li>
+      </ul> 
+
+
+        <p>Quelle Erstellung Webseite</p>
+      <ul>
+        <li>https://www.w3schools.com/w3css/w3css_accordions.asp</li>
+      </ul>
+
+      <p>Quelle Korrektur der Webseite</p>
+      <ul>
+        <li>ChatGPT</li>
+      </ul>
+      
+    </div>
+  </div>
+
+  <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">
+      Berther Roman, Fischer Raven, Schoenenberger Jeremy, Wurr Kimberly
+    </h1>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <p>Modul 283</p>
+  </footer>
+
+  <script>
+    
+    function toggleNav() {
+      var x = document.getElementById("navmobile");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    //  the accordion sections
+    function toggleAccordion(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
+  
+</body>
+</html>

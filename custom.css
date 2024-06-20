@@ -1,0 +1,70 @@
+/*Font Definition für Selektor Tags*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+/*Font Definition für Nav, h1, Button*/
+.w3-bar,
+h1,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Grösse der Beiden Icons auf Startseite*/
+.fa-anchor,
+.fa-coffee,
+.fa-user,
+.fa-balance-scale {
+  font-size: 150px;
+}
+
+.bg {
+  background-image: linear-gradient(green, white);
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .w3-jumbo {
+    font-size: 50px !important;
+    padding: 8px !important;
+  }
+  .w3-xlarge,
+  h1 {
+    font-size: 28px !important;
+    padding: 4px !important;
+  }
+
+  .fa-anchor,
+  .fa-coffee,
+  .fa-user,
+  .fa-balance-scale {
+    font-size: 100px;
+    padding: 5px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .w3-jumbo {
+    font-size: 30px !important;
+    padding: 8px !important;
+  }
+  .w3-xlarge,
+  h1 {
+    font-size: 20px !important;
+    padding: 4px !important;
+  }
+
+  .fa-anchor,
+  .fa-coffee,
+  .fa-user,
+  .fa-balance-scale {
+    font-size: 80px;
+    padding: 2px !important;
+  }
+}
